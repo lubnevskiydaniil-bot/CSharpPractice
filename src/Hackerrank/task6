@@ -1,0 +1,34 @@
+//https://www.hackerrank.com/challenges/between-two-sets
+    public static int getTotalX(List<int> a, List<int> b)
+    {
+{
+    int count = 0;
+
+    for (int x = a.Max(); x <= b.Min(); x++)
+    {
+        bool ok = true;
+
+        foreach (int i in a)
+        {
+            if (x % i != 0)
+            {
+                ok = false;
+                break;
+            }
+        }
+
+        foreach (int j in b)
+        {
+            if (j % x != 0)
+            {
+                ok = false;
+                break;
+            }
+        }
+
+        if (ok)
+            count++;
+    }
+
+    return count;
+}
