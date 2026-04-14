@@ -1,1 +1,4 @@
 https://www.hackerrank.com/challenges/apple-and-orange
+foreach (int apple in apples)
+    if (a + apple >= s && a + apple <= t)
+        appleCount++;
