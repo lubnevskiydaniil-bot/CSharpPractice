@@ -12,3 +12,4 @@ C:\Users\Danya\Desktop\CSharpPractice\obj\Debug\net10.0\refint\CSharpPractice.dl
 C:\Users\Danya\Desktop\CSharpPractice\obj\Debug\net10.0\CSharpPractice.pdb
 C:\Users\Danya\Desktop\CSharpPractice\obj\Debug\net10.0\CSharpPractice.genruntimeconfig.cache
 C:\Users\Danya\Desktop\CSharpPractice\obj\Debug\net10.0\ref\CSharpPractice.dll
+C:\Users\Danya\Desktop\CSharpPractice\obj\Debug\net10.0\CSharpPractice.sourcelink.json
