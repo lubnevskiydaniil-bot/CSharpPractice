@@ -1,1 +1,24 @@
+https://www.hackerrank.com/challenges/sock-merchant/problem
+public static int sockMerchant(int n, List<int> ar)
+{
+    Dictionary<int, int> count = new Dictionary<int, int>();
 
+    foreach (int sock in ar)
+    {
+        if (!count.ContainsKey(sock))
+        {
+            count[sock] = 0;
+        }
+
+        count[sock]++;
+    }
+
+    int pairs = 0;
+
+    foreach (var item in count)
+    {
+        pairs += item.Value / 2;
+    }
+
+    return pairs;
+}
